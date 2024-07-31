@@ -33,7 +33,7 @@ def playerinsert():
         if table[ligne - 1][colonne - 1] == 0:
             b = 1
         else:
-            print("Cette case est déjà occupée. Tu es débile...")
+            print("Cette case est déjà occupée")
     table[ligne - 1][colonne - 1] = symbol_player
 
 
